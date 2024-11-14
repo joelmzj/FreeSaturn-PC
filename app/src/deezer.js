@@ -237,7 +237,7 @@ class DeezerAPI {
         this.userId = data.results.USER.USER_ID;
         this.favoritesPlaylist = data.results.USER.LOVEDTRACKS_ID.toString();
 
-        if (!this.userId || this.userId == 0 || !this.token || this.plan == "Deezer Free") return false;
+        if (!this.userId || this.userId == 0 || !this.token || this.plan == "Deezer Free") return true;
         return true;
     }
 
