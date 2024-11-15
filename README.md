@@ -4,7 +4,7 @@
 # Saturn
 ## Freezer Reborn
 ### Your go-to **ToS Compliant** Custom Deezer Client
-### ⚠️ A premium account is required in order to use this client
+ 
 
 ### Donations
 https://fund.saturn.kim/
