@@ -4,7 +4,9 @@
 # Saturn
 ## Freezer Reborn
 ### Your go-to **ToS Compliant** Custom Deezer Client
- 
+
+ For non-premium Deezer users.
+(I've just removed premium account verification. Obviously premium features, as flac and 320kb qualities, doesn't work.)
 
 ### Donations
 https://fund.saturn.kim/
