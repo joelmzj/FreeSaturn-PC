@@ -27,6 +27,7 @@ https://fund.saturn.kim/
 
 ```
 git clone https://github.com/joelmzj/FreeSaturn-Pc
+cd FreeSaturn-Pc
 git submodule init 
 git submodule update
 ```
