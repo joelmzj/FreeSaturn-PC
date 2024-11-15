@@ -1,7 +1,7 @@
 [![Node.js CI](https://github.com/SaturnMusic/PC/actions/workflows/main.yml/badge.svg)](https://github.com/SaturnMusic/PC/actions/workflows/main.yml)
 <sup> | [download](https://nightly.link/SaturnMusic/PC/workflows/main/main?preview) </sup>
 
-# Saturn
+# FreeSaturn - Pc
 ## Freezer Reborn
 ### Your go-to **ToS Compliant** Custom Deezer Client
 
