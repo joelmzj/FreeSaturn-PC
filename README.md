@@ -23,9 +23,12 @@ https://fund.saturn.kim/
 
 ## Building
 
+```
 git clone https://github.com/joelmzj/FreeSaturn
 git submodule init 
 git submodule update
+```
+
 Requirements: NodeJS 17+  
 
 You can build binary using npm script:
