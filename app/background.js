@@ -43,7 +43,7 @@ function assetPath(a) {
 function executeCli() {
     if (args['--help']) {
         console.log(`
-${chalk.bold.blue('Saturn')} ${chalk.bold(`v${packageJson.version}`)} Release
+${chalk.bold.blue('FreeSaturn - PC')} ${chalk.bold(`v${packageJson.version}`)} Release
 
 ${chalk.bold('USAGE:')}
 --help, -h         Prints this and exits
@@ -101,7 +101,7 @@ async function startServer() {
         dialog.showMessageBoxSync({
             type: 'error',
             title: 'Server error',
-            message: 'Server error occured, Saturn is probably already running!',
+            message: 'Server error occured, FreeSaturn - PC is probably already running!',
             buttons: ['Close']
         });
     }, override);
@@ -119,7 +119,7 @@ async function createWindow() {
         autoHideMenuBar: true,
         frame: settings.nativeTopBar,
         icon: process.env.NODE_ENV === 'canary' ? assetPath("icon-canary.png") : assetPath("icon.png"),
-        title: process.env.APP_TITLE || 'Saturn',
+        title: process.env.APP_TITLE || 'FreeSaturn - PC',
         webPreferences: {
             enableRemoteModule: true,
             nodeIntegration: true,
