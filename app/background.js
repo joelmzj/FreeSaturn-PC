@@ -78,7 +78,7 @@ ${chalk.bold('TOOLS:')}
     }
     //Show log
     if (args['--log']) {
-        let p = path.join(Settings.getDir(), "saturn-server.log");
+        let p = path.join(Settings.getDir(), "freesaturn-server.log");
         console.log(fs.readFileSync(p, {encoding: 'utf-8'}).toString());
         exit(0);
     }
