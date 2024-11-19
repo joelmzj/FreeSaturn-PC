@@ -8,7 +8,7 @@ module.exports = {
         config.plugins.push(
             new(require('webpack')).DefinePlugin({
                 'process.env.APP_TITLE': JSON.stringify(
-                    process.env.NODE_ENV === 'canary' ? 'Saturn Canary' : 'Saturn'
+                    process.env.NODE_ENV === 'canary' ? 'FreeSaturn - PC Canary' : 'FreeSaturn - PC'
                 ),
                 'process.env.APP_FAVICON': JSON.stringify(
                     process.env.NODE_ENV === 'canary' ? 'favicon-canary.ico' : 'favicon.ico'
