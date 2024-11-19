@@ -1,8 +1,8 @@
 {
-    "name": "saturn",
+    "name": "freesaturn",
     "private": true,
     "version": "1.1.2",
-    "description": "Saturn PC",
+    "description": "FreeSaturn - PC",
     "scripts": {
         "canary-dist": "electron-builder --config canary.json",
         "canary-cross-dist": "electron-builder -wl --config canary.json",
@@ -27,7 +27,7 @@
     },
     "build": {
         "appId": "dev.arachnid.saturn",
-        "productName": "Saturn",
+        "productName": "FreeSaturn - PC",
         "extraResources": [
             {
                 "from": "app/assets/**",
@@ -62,10 +62,10 @@
             "desktop": {
                 "Version": "1.1",
                 "Type": "Application",
-                "Name": "Saturn",
+                "Name": "FreeSaturn - PC",
                 "GenericName": "Electron-based Deezer client",
                 "Comment": "Desktop application for the Deezer audio streaming service",
-                "Icon": "saturn",
+                "Icon": "freesaturn",
                 "Categories": "AudioVideo;Network;Audio;FileTransfer;Player;",
                 "MimeType": "application/http;",
                 "Keywords": "audio;download;flac;lyrics;mp3;music;spotify;stream;",
@@ -76,7 +76,7 @@
                 "NoDisplay": "false",
                 "Hidden": "false"
             },
-            "executableName": "saturn",
+            "executableName": "freesaturn",
             "icon": "build/iconset",
             "maintainer": "github.com/SaturnMusic",
             "mimeTypes": [
@@ -91,7 +91,7 @@
         },
         "appImage": {
             "desktop": {
-                "X-AppImage-Name": "Saturn"
+                "X-AppImage-Name": "FreeSaturn - PC"
             }
         },
         "deb": {
