@@ -111,7 +111,7 @@ class Integrations extends EventEmitter {
                     largeImageKey: data.track.albumArt.thumb,
                     largeImageText: data.track.album.title,
                     smallImageKey: 'small',
-                    smallImageText: `Saturn v${packageInfo.version}`,
+                    smallImageText: `FreeSaturn - PC v${packageInfo.version}`,
                     instance: true,
                 }
                 //Show timestamp only if playing
