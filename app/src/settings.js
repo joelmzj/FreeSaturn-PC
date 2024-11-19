@@ -123,7 +123,7 @@ class Settings {
     }
 
     getDefaultDownloadPath() {
-        return path.join(os.homedir(), 'SaturnMusic');
+        return path.join(os.homedir(), 'FreeSaturn-Music');
     }
 
     //Blocking load settings
