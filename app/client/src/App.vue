@@ -480,8 +480,8 @@ export default {
   },
   computed: {
     appName () {
-      if (process.env.NODE_ENV == 'canary') return 'Saturn Canary';
-      return 'Saturn';
+      if (process.env.NODE_ENV == 'canary') return 'FreeSaturn - PC Canary';
+      return 'FreeSaturn - PC';
     },
     qualityText() {
       return `${this.$root.playbackInfo.qualityString}`;
