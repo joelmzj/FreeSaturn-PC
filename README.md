@@ -6,7 +6,7 @@
 ### Your go-to **ToS Compliant** Custom Deezer Client
 
  For non-premium Deezer users.
-(I've just removed premium account verification. Obviously premium features, as flac and 320kb qualities, doesn't work.)
+(I've just removed premium account verification. Obviously premium features, as flac and 320kb qualities, doesn't work unless you use a Premium account. So, you can use this mod with both premium and free accounts. :)  )
 
 ### Donations
 https://fund.saturn.kim/
